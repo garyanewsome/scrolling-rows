@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Scrolling Rows</title>
+
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="scrolling_rows.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+  <div id="wrapper">
+    <span id="controlL" class="left-controls" role="button" aria-label="See Previous Modules">
+      <b class="fa fa-chevron-left fa-chevron-left-extra" aria-hidden="true"></b>
+    </span>
+   
+    <div class="module-section clearfix">
+      <ul id="content">
+        <li class="chapter card card--red"></li>
+        <li class="chapter card card--orange"></li>
+        <li class="chapter card card--yellow"></li>
+        <li class="chapter card card--green"></li>
+        <li class="chapter card card--blue"></li>
+        <li class="chapter card card--indigo"></li>
+        <li class="chapter card card--violet"></li>    
+      </ul>
+    </div>
+    
+    <span id="controlR" class="right-controls" role="button" aria-label="See Previous Modules">
+      <b class="fa fa-chevron-right fa-chevron-right-extra" aria-hidden="true"></b>
+    </span>
+  </div>
+<script src="scrolling_rows.js"></script>
+</body>
+</html>
